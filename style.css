@@ -1,0 +1,341 @@
+body {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+.logo img {
+    width: 200px;
+    margin-top: 2.4em;
+}
+#menu{
+    position: fixed;
+   display: flex;
+   justify-content: space-between;
+   margin: -0.6em 0 0 0 ;
+   background:rgba(2, 2, 2, 0.322);
+   width: 100%;
+}
+#menu > a > img{
+    width: 40px;
+    margin-top: .3em;
+}
+#menu > img{
+    width: 33px;
+    height: 24px;
+    margin: .5em;
+}
+#openmenu {
+    text-align: left;
+    position: fixed;
+    width: 70%;
+    height: 99.9%;
+    overflow: scroll;
+    top: 0;
+    right: 0;
+    display: none;
+    background:rgba(2, 2, 2, 0.884);
+    z-index: 5;
+}
+.mainmenu {
+    background:rgba(2, 2, 2, 0.74);
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 70%;
+    padding:0.6em;
+    margin-left: -2em;
+}
+.mainmenu:hover{
+    background:rgba(37, 37, 37, 0.993);
+}
+nav ul{
+    list-style: none;
+}
+#academics{
+    display: none;
+}
+#admissions{
+    display: none;
+}
+#support{
+    display: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: royalblue;
+}
+#slides{
+    background-image:url(background2.png);
+    background-size: 100%;
+}
+.myslides a img{
+    width: 100%;
+}
+.fade{
+    animation: fade 5s;
+}
+@keyframes fade{
+    from {opacity: .6;}
+    to{opacity: 1;}
+}
+#values{
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 45px;
+    background-image: url(background1.png);
+    background-size: 100%;
+    border-left-style: double;
+    border-right-style: double;
+}
+#values > a > img{
+    width: 30px;
+    animation: readmore 2s infinite alternate;
+}
+@keyframes readmore{
+    0%{transform: translateY(0px);}
+    100%{transform: translateY(8px);}
+}
+h1 {
+    color: darkblue;
+    padding-top: 1em;
+}
+h2{
+    margin-bottom: -0.2em;
+}
+figure{
+    font-size: 10px;
+}
+figure > img{
+    border-radius: 50%;
+    width: 110px;
+    border-style: groove;
+    border-bottom-color: forestgreen;
+}
+#theChancellor{
+    background-color: rgba(3, 191, 238, 0.404);
+}
+#chancellor{
+    display: flex;
+    justify-content: space-evenly;
+}
+#theChancellor blockquote > a > img{
+    width: 30px;
+    animation: readmore 2s infinite alternate;
+}
+#eventnotice{
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 45px;
+    background-image: url(background1.png);
+    background-size: 100%;
+    border-left-style: double;
+    border-right-style: double;
+}
+#eventnotice > h3{
+    color: whitesmoke;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 2.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#eventnotice > p{
+    margin-top: -1em;
+    margin-left: 2.4em;
+    margin-right: 2.4em;
+    border-style: ridge;
+    border-radius: 8px;
+    display: none;
+}
+#eventnotice > p > a > img{
+    width: 30px;
+    animation: readmore 2s infinite alternate;
+}
+#latestnews{
+    background-image: url(background3.png);
+    background-size: 10%;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.news > div{
+    padding-top: 1.5em;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-radius: 40px;
+}
+#latestnews > a >img{
+    width: 300px;
+}
+.news >div > p > a > img{
+    width: 30px;
+    animation: readmore 2s infinite alternate;
+}
+#latestnews > .morenews > img{
+    width: 20px;
+}
+#faculties{
+    background-image: url(background4.png);
+    background-size: 100%;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.schools >div >ul >li{
+    list-style-type: none;
+    border-style: groove;
+    margin: .6em 2em 0 -1em;
+    border-radius: 10px;
+}
+.schools >div >a >h3{
+   color: #000;
+}
+.schools >div >ul >li >a{
+    text-decoration: none;
+    color: #000;
+}
+#darkcontainer{
+    background-color: rgba(2, 2, 2, 0.795);
+    color: white;
+    margin-bottom: -1.2em;
+}
+#darkcontainer >ul >li >h2{
+    margin-bottom: 1em;
+}
+.network >div >h2{
+    margin-bottom: 1em;
+}
+.network >div >a >img{
+    width: 30px;
+}
+.network >div >#map >img{
+    width: 250px;
+}
+.links >ul >li {
+    list-style-type: none;
+    margin: 0 0.5em 0.5em -1.5em;
+}
+.links >ul >li >a {
+    color: white;
+    text-decoration: none;
+}
+#darkcontainer >ul >li {
+    list-style-type: none;
+    margin: 0 0.5em 0.5em -1.5em;
+}
+#darkcontainer >ul >li >a {
+    color: white;
+    text-decoration: none;
+}
+#blackbox{
+    background-color: black;
+}
+#blackbox >h3{
+    padding: 1em 0 1em 0;
+}
+#blackbox >h3 >a{
+    color:white;
+    text-decoration: none;
+}
+footer{
+    background-color: rgba(19, 131, 131, 0);
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    white-space: nowrap;
+}
+footer a{
+    color: black;
+    font-weight: bold;
+    margin-right: 1em;
+    margin-bottom: -1em;
+    text-decoration: none;
+}
+footer a img{
+    width: 35px;
+    margin-bottom: -20px;
+}
+footer a img:hover {
+    width: 40px;
+}
+
+@media only screen and (min-width: 650px){
+    body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .logo img {
+        width: 200px;
+        margin-top: -0.5em;
+    }
+    #menu{
+        position: fixed;
+        right: 5px;
+       width: 40px;
+       background: none;
+    }
+    #menu > a > img{
+        display: none;
+    }
+    #openmenu {
+        width: 24em;
+    }
+    .stories{
+        width: 90%;
+    }
+    #values{
+        margin-left: 0em;
+        margin-right: 0em;
+        width: 50%;
+    }
+    #eventnotice{
+        width: 50%;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .group1{
+        display: flex;
+        justify-content: space-between;
+    }
+    figure > img{
+        margin-top: -5em;
+        width: 80px;
+    }
+    .news{
+        display: flex;
+        justify-content: space-between;
+        margin-left: -1em;
+        margin-right: -1em;
+    }
+    .news > div{
+        border-style: double;
+    }
+    footer a{
+        margin-bottom: 0px;
+    }
+}
+@media only screen and (min-width: 850px){
+    .schools {
+        display: flex;
+        justify-content: space-between;
+    }
+    .network{
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .links{
+        display: flex;
+        justify-content: space-between;
+    }
+}

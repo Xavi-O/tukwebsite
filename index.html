@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="menu">
+        <a href="index.html"><img src="homeicon.png" alt="home"></a>
+         <img onclick="togglemenu()" src="menuicon.png" alt="menu">
+    </header>
+    <div onclick="closemenu()" class="logo" ><img src="logo.png" alt="logo"></div>
+    <nav id="openmenu">
+        <ul>
+            <li onclick="expandabout()"><h3 class="mainmenu">About TU-K</h3></li>
+            <li id="about"><a href="#">TU-K Profile<br></a>
+            <br><a href="#">Governance</a><br>
+            <br><a href="#">The Chancellor</a><br>
+            <br><a href="#">University Council</a><br>
+            <br><a href="#">The Senate</a><br>
+            <br><a href="#">The Vice Chancellor</a><br>
+            <br><a href="#">The University Management Board</a><br>
+            <br><a href="#">Administration</a><br>
+            <br><a href="#">Administration, Planning and Infrastructure</a><br>
+            <br><a href="#">Technology, Innovation and Partnerships</a><br>
+            <br><a href="#">Academic, Research and Students</a><br>
+            <br><a href="#">Professors</a><br>
+            <br><a href="#">Full Professors</a><br>
+            <br><a href="#">Associate Professors</a></li>
+            <li onclick="expandacademics()"><h3 class="mainmenu">Academics</h3></li>
+            <li id="academics"><a href="#">Faculties</a><br>
+            <br><a href="#">Applied Sciences and Technology</a><br>
+            <br><a href="#">Engineering Sciences and Technology</a><br>
+            <br><a href="#">Social Sciences and Technology</a><br>
+            <br><a href="#">Examinations</a><br>
+            <br><a href="#">Undergraduate Programs</a><br>
+            <br><a href="#">Bachelors Degree Courses</a><br>
+            <br><a href="#">Diploma Courses</a><br>
+            <br><a href="#">Description of Bachelor of Technology Programs</a><br>
+            <br><a href="#">Postgraduate Programs</a><br>
+            <br><a href="#">Library</a></li>
+            <li onclick="expandadmissions()"><h3 class="mainmenu">Admissions</h3></li>
+            <li id="admissions"><a href="#">Admission Lists</a><br>
+            <br><a href="#">Advertised Courses</a><br>
+            <br><a href="#">Prospective Students</a><br>
+            <br><a href="#">Scolarships and Grants</a></li>
+            <li onclick="expandsupport()"><h3 class="mainmenu">Students Support</h3></li>
+            <li id="support"><a href="#">Director of Students</a><br>
+            <br><a href="#">Sports and Recreation</a><br>
+            <br><a href="#">Message to Students and New Students</a><br>
+            <br><a href="#">News from the Directorate</a><br>
+            <br><a href="#">Chaplaincy</a><br>
+            <br><a href="#">Clubs and Associations</a><br>
+            <br><a href="#">Religious Groups</a><br>
+            <br><a href="#">Staff</a><br>
+            <br><a href="#">Student Downloads</a><br>
+            <br><a href="#">Student Welfare</a><br>
+            <br><a href="#">SATUK Constitution</a><br>
+            <br><a href="#">Student Leadership</a></li>
+        </ul>
+    </nav>
+    <div onclick="closemenu()" id="slides" >
+        <div class="myslides fade">
+            <a href="#"><img src="Slide1.SVG" alt="Slide1"></a>
+        </div>
+        <div class="myslides fade">
+            <a href="#"><img src="Slide2.SVG" alt="Slide2"></a>
+        </div>
+        <div class="myslides fade">
+            <a href="#"><img src="Slide3.SVG" alt="Slide3"></a>
+        </div>
+        <div class="myslides fade">
+            <a href="#"><img src="Slide4.SVG" alt="Slide4"></a>
+        </div>
+        <div class="myslides fade">
+            <a href="#"><img src="Slide5.SVG" alt="Slide5"></a>
+        </div>
+        <div class="myslides fade">
+            <a href="#"><img src="Slide6.SVG" alt="Slide6"></a>
+        </div>
+        <div class="myslides fade">
+            <a href="#"><img src="Slide7.SVG" alt="Slide7"></a>
+        </div>
+        <div class="myslides fade">
+            <a href="#"><img src="Slide8.SVG" alt="Slide8"></a>
+        </div>
+    </div>
+    <div class="group1">
+    <div onclick="closemenu()" id="values" >
+        <h1>Vision, Mission and Values</h1>
+        <h2>Vision</h2>
+        To be a top rated University of technology
+        <h2>Mission</h2>
+        To provide technological education and training and to contribute towards 
+        the advancement of society through research and innovation
+        <h2>Motto</h2>
+        Education and training for the real world <br>
+        <a href="#"><br><img src="moreicon.png" alt="readmore"><br>Read More</a>
+    </div>
+    <div onclick="closemenu()" id="eventnotice">
+        <h1>TU-K Events and Notices</h1>
+        <h3 onclick="toggleevent()" >ONGOING CORONA VIRUS DISEASE PREVENTIVE MEASURES</h3>
+        <p id="notice">
+            Date: Saturday, April 4, 2020
+            As part of Covid-19 Preventive Measures, and to augment Government efforts. <br>
+            <a href="#"><img src="moreicon.png" alt="readmore"><br>Read More</a>
+        </p>
+        <h3 onclick="toggleevent2()" >COMMUNIQUE ON CORONA VIRUS DISEASE (COVID-19)</h3>
+        <p id="notice2">
+            Date: Saturday, April 4, 2020
+            As part of Covid-19 Preventive Measures, and to augment Government efforts. <br>
+            <a href="#"><img src="moreicon.png" alt="readmore"><br>Read More</a>
+        </p>
+        <h3 onclick="toggleevent3()">HOSTEL ACCOMMODATION FOR MAY 2020</h3>
+        <p id="notice3">
+            Date: Saturday, April 4, 2020
+            As part of Covid-19 Preventive Measures, and to augment Government efforts. <br>
+            <a href="#"><img src="moreicon.png" alt="readmore"><br>Read More</a>
+        </p><br>
+    </div>
+    </div>
+    <div onclick="closemenu()" id="theChancellor">
+        <h1>The Chancellor</h1>
+        <div id="chancellor">
+            <figure>
+                <img src="chandaria.jpg" alt="chandaria" style="border-radius: 50%;">
+                <figcaption>The Chancellor,Dr. Manu Chandaria</figcaption>
+            </figure>
+            <blockquote>
+                Dr. Manu Chandaria is the first Chancellor of The Technical University 
+            of Kenya. The Chancellor is the titular head of the University. 
+            In the name of the University, he confers degrees and grants diplomas, 
+            certificates and other awards of the University. <br>
+            <a href="#"><img src="moreicon.png" alt="readmore"><br>Read More</a>
+            </blockquote>
+        </div>
+    </div>
+    <div onclick="closemenu()" id="latestnews">
+        <h1>Latest News</h1>
+        <div class="news">
+        <div>
+        <h3>TU-K Research Team Wins Sh9.4m Facebook Grant</h3>
+        <p>
+            A team of researchers from the Technical University of Kenya has won a Sh9.4 million 
+            grant from Facebook to study cyber-bullying on Facebook among undergraduate students 
+            in Kenyan universities. The research project titled “Pixels hurt more than sticks and 
+            stones: confronting cyber-bullying on Facebook” was selected from 189 applications 
+            worldwide. The one-year project will investigate the nature, prevalence and effects of 
+            cyber-bullying on Facebook among undergraduate students in 16 public and 8 private 
+            universities in Kenya. Cyber-bullying is a form of harassment using electronic. <br>
+            <a href="#"><img src="moreicon.png" alt="readmore"><br>Read More</a>
+        </p>
+        </div>
+        <div>
+        <h3>Communique on Corona Virus Disease (Covid-19)</h3>
+        <p>
+            The Covid-19 is caused by 2019 Novel Corona Virus (2019-nCOV). The virus has spread 
+        worldwide. It is transmitted from infected person to others through sneezing, coughing, 
+        close personal contact and touching 2019-nCOV contaminated objects. Signs and symptoms 
+        appear after about 2-5 days of infection. It causes respiratory disease ranging from mild 
+        common cold like illness to severe pneumonia/bronchitis. Fever, chills body aches are 
+        common. As of 8 March 2019, 105,828 cases of Covid-19 have been identified, with over 
+        3,500 deaths. China has the highest number of cases. The African... <br>
+        <a href="#"><img src="moreicon.png" alt="readmore"><br>Read More</a>
+        </p>
+        </div>
+        </div>
+        <h3>Africa preparedness in combating Coronavirus</h3>
+        <a href="#"><img src="cod7-clip.jpg" alt="youtubelink"></a> <br>
+        <a class="morenews" href="#"><img src="morenews.png" alt="morenews"><br>More News</a>
+    </div>
+    <div onclick="closemenu()" id="faculties">
+       <h1> TU-K Faculties</h1>
+       <div class="schools">
+           <div>
+       <a href="#"><h3>Faculty of Engineering Sciences and Technology</h3></a>
+           <ul>
+               <li><a href="#">School of Electrical and Electronic Engineering</a></li>
+               <li><a href="#">School of Architecture and the Built Environment</a></li>
+               <li><a href="#">School of Infrastructure and Resource Engineering</a></li>
+               <li><a href="#">School of Mechanical and Process Engineering</a></li>
+               <li><a href="#">School of Surveying and Geospatial Sciences</a></li>
+               <li><a href="#">Centre for Engineering Innovation and Production</a></li>
+           </ul>
+           </div>
+           <div>
+           <a href="#"><h3>Faculty of Social Sciences and Technology</h3></a>
+           <ul>   
+              <li><a href="#">School of Business and Management Studies</a></li>
+              <li><a href="#">School of Creative Arts and Technologies</a></li>
+              <li><a href="#">School of Hospitality and Tourism Management</a></li>
+              <li><a href="#">School of Information and Communication Studies</a></li>
+              <li><a href="#">School of Social and Development Studies</a></li>
+              <li><a href="#">Centre for Creative and Cultural Industries</a></li>
+           </ul>
+           </div>
+           <div>
+           <a href="#"><h3>Faculty of Applied Sciences and Technology.</h3></a>
+           <ul>  
+              <li><a href="#">School of Biological and Life Sciences</a></li>
+              <li><a href="#">School of Physical Sciences and Technology</a></li>
+              <li><a href="#">School of Computing and Information Technologies</a></li>
+              <li><a href="#">School of Health Sciences and Technology</a></li>
+              <li><a href="#">School of Mathematics and Statistics</a></li>
+              <li><a href="#">Centre for Science and Technology Studies</a></li>
+           </ul>
+           </div>
+        </div>
+    </div>
+    <div onclick="closemenu()" id="darkcontainer">
+        <div class="network">
+            <div>
+                <h2>ISO Certification</h2>
+                <img src="tuk-iso.png" alt="tuk-iso">
+            </div>
+            <div>
+                <h2>Social Network</h2>
+                <a href="#"><img src="youtubeicon.png" alt="youtube"></a>
+                <a href="#"><img src="fbicon.png" alt="Facebook"></a>
+                <a href="#"><img src="twittericon.png" alt="twitter"></a>
+                <a href="#"><img src="mailicon.png" alt="mail"></a>
+                <a href="#"><img src="rssicon.png" alt="rss"></a>
+            </div>
+            <div>
+                <h2>Locate Us</h2>
+                <a id="map" href="#"><img src="map.png" alt="map"></a>
+            </div>
+        </div>
+        <div class="links">
+            <ul>
+                <li><h2> Quick Links</h2></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Research and Publications</a></li>
+                <li><a href="#">Institutional Repository</a></li>
+                <li><a href="#">Archive</a></li>
+                <li><a href="#">Job Vacancies</a></li>
+                <li><a href="#">Global and Community Engagement</a></li>
+                <li><a href="#">Tenders</a></li>
+                <li><a href="#">Internationally Bench-Marked Training for Industry</a></li>
+                <li><a href="#">Careers Portal</a></li>
+                <li><a href="#">Conferences</a></li>
+                <li><a href="#">Staff e-Portal</a></li>
+                <li><a href="#">Staff Welfare Portal</a></li>
+                <li><a href="#">Alumni</a></li>
+                <li><a href="#">E-Learning</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">Our Partners</a></li>
+                <li><a href="#">Sports and Recreation</a></li>
+            </ul>
+            <ul>
+                <li><h2>Resources</h2></li>
+                <li><a href="#">Fee Statement</a></li>
+                <li><a href="#">Student's Portal</a></li>
+                <li><a href="#">Student's Mail</a></li>
+                <li><a href="#">Class List</a></li>
+                <li><a href="#">Staff Mail</a></li>
+                <li><a href="#">Sessional lecturers application</a></li>
+                <li><a href="#">TU-K Commitment to National Values and Principles of Governance</a></li>
+                <li><a href="#">Public Service (Values and Principles) Act</a></li>
+                <li><a href="#">Staff Documents</a></li>
+                <li><a href="#">Media Server</a></li>
+                <li><a href="#">eBioKit</a></li>
+                <li><a href="#">Multi-Media Gallery</a></li>
+                <li><a href="#">Wealth Declaration Form</a></li>
+                <li><a href="#">2017-2018 Values and Principles Compliance Evaluation Report Template</a></li>
+                <li><a href="#">Careers Portal</a></li>
+            </ul>
+        </div>
+       <ul>
+           <li> <h2>Quality Management System</h2></li>
+           <li><a href="#">QMS 9001-2015 Manual</a></li>
+           <li><a href="#">Quality Objectives and Quality Policy</a></li>
+           <li><a href="#">The Scope</a></li>
+           <li><a href="#">Service Charter - Revised 2018</a></li>
+           <li><a href="#">Hati ya Utoaji Huduma</a></li>
+       </ul><br>
+    </div>
+    <div onclick="closemenu()" id="blackbox">
+        <h3>
+            <a href="#">Copyright © 2020,The Technical University of Kenya | 
+                Site developed and maintained by XAVIER.O.</a> <br>
+        </h3> <br>
+    </div> <br>
+    <footer>
+        <a href="#"><img src="home.png" alt="home"><p>Home</p></a>
+        <a href="#"><img src="library.png" alt="library"><p>Library</p></a>
+        <a href="#"><img src="research.png" alt="research"><p>Research</p></a>
+        <a href="#"><img src="sportal.png" alt="studentsportal"><p>Students <br> Portal</p></a>
+        <a href="#"><img src="repository.png" alt="Repository"><p>I- <br> Repository</p></a>
+        <a href="#"><img src="staffmail.png" alt="staffmail"><p>Staff <br> Mail</p></a>
+        <a href="#"><img src="alumni.png" alt="alumni"><p>Alumni</p></a>
+        <a href="#"><img src="staffportal.png" alt="staffportal"><p>Staff <br> e-Portal</p></a>
+        <a href="#"><img src="intake.png" alt="intake"><p>Intake <br> July2020</p></a>
+        <a href="#"><img src="careers.png" alt="careers"><p>Careers</p></a>
+        <a href="#"><img src="contacts.png" alt="contacts"><p>Contacts</p></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
